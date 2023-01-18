@@ -16,16 +16,65 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ 
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+
+
+.sizeSelect {
+  margin: 0 auto;
+  width: max-content;
+  justify-items: center;
+  padding-top: 2rem;
+
+}
+
+.check{
+  padding-left: 2rem;
+  width: max-content;
+  justify-items: left;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  border-style: solid;
+}
+.btn{
+  
+  width: max-content;
+  margin-top: 5%;
+  justify-items: center;
+  
+}
+.check2{
+  padding-left: 2rem;
+  width: max-content;
+  justify-items: right;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  border-style: solid;
+}
+
+.check3{
+  padding-left: 2rem;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  
+  display: flex;
+}
+
 .App-link {
   color: #61dafb;
+}
+.team{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 2rem;
+  
+  
 }
 
 @keyframes App-logo-spin {
